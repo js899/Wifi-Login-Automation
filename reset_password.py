@@ -8,6 +8,6 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome("C:\\Users\\hp\\mydriver\\chromedriver")
 driver.get("http://academics.gndec.ac.in/forgotpassword/")
 username=driver.find_element_by_name("username")
-username.send_keys("1815032")
+username.send_keys("-----")
 driver.find_element_by_name("submitt").click()
 #send_keys(Keys.ENTER)
