@@ -14,5 +14,8 @@ password = driver.find_element_by_id("-----")
 password.clear()
 password.send_keys("*****") 
 driver.find_element_by_name("submit").click()           #submit button clicked
+driver.find_element_by_name("submit").click()           #submit button clicked. If you are logged in from another device and 
+                                                        #want to log out from it and login from current deivce
+                                                        #(our network allows only 1 device at a time)
 driver.close()                                          #browser closed
 #send_keys(Keys.ENTER)
